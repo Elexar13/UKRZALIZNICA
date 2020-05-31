@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="398.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.TrainController">
+   <center>
+      <GridPane prefHeight="380.0" prefWidth="870.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="502.0" minWidth="10.0" prefWidth="498.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="501.0" minWidth="10.0" prefWidth="501.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="181.0" minHeight="10.0" prefHeight="101.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="418.0" minHeight="10.0" prefHeight="125.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="386.0" minHeight="10.0" prefHeight="147.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="227.0" pickOnBounds="true" preserveRatio="true" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@bf28846281506eb3a2a1dabb2bf7ef68.png" />
+               </image>
+            </ImageView>
+            <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.valignment="BOTTOM" />
+            <GridPane fx:id="gridpane" prefHeight="118.0" prefWidth="870.0" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints fx:id="grifPane" hgrow="SOMETIMES" maxWidth="120.0" minWidth="10.0" prefWidth="120.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="70.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="120.0" minWidth="10.0" percentWidth="0.0" prefWidth="120.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="113.0" minHeight="10.0" prefHeight="76.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="84.0" minHeight="0.0" prefHeight="3.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="place1" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="1" GridPane.columnIndex="1" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place2" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="2" GridPane.columnIndex="1" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place4" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="4" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place3" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="3" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place53" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="53" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place54" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="54" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place6" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="6" GridPane.columnIndex="2" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place5" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="5" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place8" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="8" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place7" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="7" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place51" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="51" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place52" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="52" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place10" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="10" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place9" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="9" GridPane.columnIndex="3" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place12" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="12" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place11" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="11" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place49" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="49" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place50" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="50" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place13" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="13" GridPane.columnIndex="4" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place14" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="14" GridPane.columnIndex="4" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place16" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="16" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place15" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="15" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place47" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="47" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place48" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="48" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place18" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="18" GridPane.columnIndex="5" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place17" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="17" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place19" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="19" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place20" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="20" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place45" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="45" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place46" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="46" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place21" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="21" GridPane.columnIndex="6" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place22" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="22" GridPane.columnIndex="6" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place23" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="23" GridPane.columnIndex="6" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place24" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="24" GridPane.columnIndex="6" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place43" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="43" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place44" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="44" GridPane.columnIndex="6" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place25" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="25" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place26" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="26" GridPane.columnIndex="7" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place28" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="28" GridPane.columnIndex="7" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place27" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="27" GridPane.columnIndex="7" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place41" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="41" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place42" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="42" GridPane.columnIndex="7" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place30" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="30" GridPane.columnIndex="8" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place29" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="29" GridPane.columnIndex="8" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place32" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="32" GridPane.columnIndex="8" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place31" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="31" GridPane.columnIndex="8" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place39" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="39" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place40" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="40" GridPane.columnIndex="8" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place34" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="34" GridPane.columnIndex="9" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place33" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="33" GridPane.columnIndex="9" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place36" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="36" GridPane.columnIndex="9" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place35" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="35" GridPane.columnIndex="9" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place37" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="37" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="place38" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="28.0" style="-fx-background-color: #d4b268; -fx-background-radius: 4;" text="38" GridPane.columnIndex="9" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+            </GridPane>
+            <Label prefHeight="28.0" prefWidth="170.0" text="*непарні - нижні місця" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP" />
+            <Label prefHeight="21.0" prefWidth="170.0" text="*парні - верхні місця" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets top="25.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="893.0" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="25.0" />
+               </GridPane.margin>
+            </Label>
+            <Button fx:id="buyButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="117.0" text="Придбати" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets bottom="25.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="96.0" text="Назад" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="15.0" right="15.0" />
+               </GridPane.margin>
+            </Button>
+            <Label fx:id="infolabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="66.0" prefWidth="533.0" textAlignment="CENTER" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets top="85.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

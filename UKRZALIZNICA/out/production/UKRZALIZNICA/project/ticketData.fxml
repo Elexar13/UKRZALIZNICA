@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="project.DataForTicketsController"
+            prefHeight="180.0" prefWidth="200.0">
+
+    <AnchorPane  minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+        <children>
+            <TextField fx:id="nameField" layoutX="189.0" layoutY="77.0" />
+            <TextField fx:id="lastnameField" layoutX="189.0" layoutY="120.0" />
+            <Label layoutX="135.0" layoutY="76.0" text="Ім'я">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+            <Label layoutX="104.0" layoutY="119.0" text="Фамілія">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+            <Label fx:id="citiesLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="71.0" layoutY="14.0" prefHeight="37.0" prefWidth="236.0" />
+            <CheckBox fx:id="studentCheckBox" layoutX="91.0" layoutY="202.0" mnemonicParsing="false" text="Студент" />
+            <CheckBox fx:id="pilgCheckBox" layoutX="212.0" layoutY="202.0" mnemonicParsing="false" text="Пільговик" />
+            <Button fx:id="buyButton" layoutX="136.0" layoutY="320.0" mnemonicParsing="false" text="Придбати">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Button>
+            <Label fx:id="reisLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="264.0" prefHeight="26.0" prefWidth="223.0" />
+            <Label fx:id="paymentLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="234.0" prefHeight="23.0" prefWidth="196.0" />
+            <Label fx:id="placeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="77.0" layoutY="297.0" prefHeight="19.0" prefWidth="223.0" />
+            <Button fx:id="backButton" layoutX="314.0" layoutY="347.0" mnemonicParsing="false" onAction="#back" text="Назад" />
+        </children>
+    </AnchorPane>
+
+</AnchorPane>
